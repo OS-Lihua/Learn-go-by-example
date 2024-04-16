@@ -1,7 +1,9 @@
 // 通道
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	messages := make(chan string)
